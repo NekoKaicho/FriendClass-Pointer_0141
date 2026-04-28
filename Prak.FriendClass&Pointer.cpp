@@ -67,5 +67,13 @@ void LayangLayang::output(){
     cout << "Sisi Pendek : " << sisiPendek << endl;
     cout << "Sisi Panjang : " << sisiPanjang << endl;
 }
+int main()
+{
+    LayangLayang layang;
+    layang.input();
+    layang.luas();
+    layang.keliling();
+    layang.output();
+}
 
 
