@@ -38,5 +38,12 @@ void BelahKetupat::luas(){
 void BelahKetupat::keliling(){
     cout << "Keliling Belah Ketupat : " << 4 * sisi << endl;
 }
+void BelahKetupat::output()
+{
+    cout << " Hasil Belah Ketupat " << endl;
+    cout << "Sisi : " << sisi << endl;
+    cout << "Diagonal 1 : " << d1 << endl;
+    cout << "Diagonal 2 : " << d2 << endl;
+}
 
 
