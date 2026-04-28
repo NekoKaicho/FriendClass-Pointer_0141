@@ -74,6 +74,16 @@ int main()
     layang.luas();
     layang.keliling();
     layang.output();
+
+    cout << endl;
+
+    BelahKetupat ketupat;
+    ketupat.input();
+    ketupat.luas();
+    ketupat.keliling();
+    ketupat.output();
+
+    return 0;
 }
 
 
