@@ -12,4 +12,16 @@ public:
     void output();
 };
 
+class LayangLayang
+{
+private:
+    float d1, d2, sisiPendek, sisiPanjang;
+public:
+    friend void BelahKetupat::keliling(); 
+    void input();
+    void luas();
+    void keliling();
+    void output();
+};
+
 
