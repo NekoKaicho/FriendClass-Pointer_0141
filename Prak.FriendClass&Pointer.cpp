@@ -60,5 +60,12 @@ void LayangLayang::luas(){
 void LayangLayang::keliling(){
     cout << "Keliling Layang-Layang : " << (2 * sisiPendek) + (2 * sisiPanjang) << endl;
 }
+void LayangLayang::output(){
+    cout << " Hasil Layang-Layang " << endl;
+    cout << "Diagonal 1 : " << d1 << endl;
+    cout << "Diagonal 2 : " << d2 << endl;
+    cout << "Sisi Pendek : " << sisiPendek << endl;
+    cout << "Sisi Panjang : " << sisiPanjang << endl;
+}
 
 
