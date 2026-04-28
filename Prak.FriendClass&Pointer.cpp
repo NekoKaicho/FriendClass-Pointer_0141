@@ -24,14 +24,16 @@ public:
     void output();
 };
 
-void BelahKetupat::input()
-{
+void BelahKetupat::input(){
     cout << "Masukkan sisi : ";
     cin >> sisi;
     cout << "Masukkan diagonal 1 : ";
     cin >> d1;
     cout << "Masukkan diagonal 2 : ";
     cin >> d2;
+}
+void BelahKetupat::luas(){
+    cout << "Luas Belah Ketupat : " << (d1 * d2) / 2 << endl;
 }
 
 
