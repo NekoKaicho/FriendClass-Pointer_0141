@@ -57,5 +57,8 @@ void LayangLayang::input(){
 void LayangLayang::luas(){
     cout << "Luas Layang-Layang : " << (d1 * d2) / 2 << endl;
 }
+void LayangLayang::keliling(){
+    cout << "Keliling Layang-Layang : " << (2 * sisiPendek) + (2 * sisiPanjang) << endl;
+}
 
 
