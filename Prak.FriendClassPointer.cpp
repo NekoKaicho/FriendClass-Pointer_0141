@@ -18,6 +18,7 @@ private:
     float d1, d2, sisiPendek, sisiPanjang;
 public:
     friend void BelahKetupat::keliling(); // akses private member Layang2
+
     void input();
     void luas();
     void keliling();
@@ -70,6 +71,7 @@ void LayangLayang::output(){
 int main()
 {
     LayangLayang layang;
+    cout << "=== Input Layang-Layang ===" << endl;
     layang.input();
     layang.luas();
     layang.keliling();
@@ -78,6 +80,7 @@ int main()
     cout << endl;
 
     BelahKetupat ketupat;
+    cout << "=== Input Belah Ketupat ===" << endl;
     ketupat.input();
     ketupat.luas();
     ketupat.keliling();
