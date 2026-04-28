@@ -38,12 +38,21 @@ void BelahKetupat::luas(){
 void BelahKetupat::keliling(){
     cout << "Keliling Belah Ketupat : " << 4 * sisi << endl;
 }
-void BelahKetupat::output()
-{
+void BelahKetupat::output(){
     cout << " Hasil Belah Ketupat " << endl;
     cout << "Sisi : " << sisi << endl;
     cout << "Diagonal 1 : " << d1 << endl;
     cout << "Diagonal 2 : " << d2 << endl;
+}
+void LayangLayang::input(){
+    cout << "Masukkan diagonal 1 : ";
+    cin >> d1;
+    cout << "Masukkan diagonal 2 : ";
+    cin >> d2;
+    cout << "Masukkan sisi pendek : ";
+    cin >> sisiPendek;
+    cout << "Masukkan sisi panjang : ";
+    cin >> sisiPanjang;
 }
 
 
