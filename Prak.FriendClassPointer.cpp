@@ -1,14 +1,14 @@
 #include <iostream>
 using namespace std;
 
-class BelahKetupat
+class BelahKetupat // dijadikan friend method
 {
 private:
     float sisi, d1, d2;
 public:
     void input();
     void luas();
-    void keliling();
+    void keliling(); // metode yg jadi friend
     void output();
 };
 
@@ -17,7 +17,7 @@ class LayangLayang
 private:
     float d1, d2, sisiPendek, sisiPanjang;
 public:
-    friend void BelahKetupat::keliling(); 
+    friend void BelahKetupat::keliling(); // akses private member Layang2
     void input();
     void luas();
     void keliling();
@@ -39,7 +39,7 @@ void BelahKetupat::keliling(){
     cout << "Keliling Belah Ketupat : " << 4 * sisi << endl;
 }
 void BelahKetupat::output(){
-    cout << " Hasil Belah Ketupat " << endl;
+    cout << "=== Hasil Belah Ketupat ===" << endl;
     cout << "Sisi : " << sisi << endl;
     cout << "Diagonal 1 : " << d1 << endl;
     cout << "Diagonal 2 : " << d2 << endl;
@@ -61,7 +61,7 @@ void LayangLayang::keliling(){
     cout << "Keliling Layang-Layang : " << (2 * sisiPendek) + (2 * sisiPanjang) << endl;
 }
 void LayangLayang::output(){
-    cout << " Hasil Layang-Layang " << endl;
+    cout << "=== Hasil Layang-Layang ===" << endl;
     cout << "Diagonal 1 : " << d1 << endl;
     cout << "Diagonal 2 : " << d2 << endl;
     cout << "Sisi Pendek : " << sisiPendek << endl;
